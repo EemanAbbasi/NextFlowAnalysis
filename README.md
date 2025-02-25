@@ -16,9 +16,9 @@ git clone https://github.com/EemanAbbasi/NextFlowGenomics.git
 cd NextFlowGenomics
 ```
 
-Pipeline Steps
-Read Alignment: Aligns sequencing reads to a reference genome using BWA.
-Variant Calling: Calls variants using the aligned BAM files with BCFtools.
+### Pipeline Steps
+ - Read Alignment: Aligns sequencing reads to a reference genome using BWA.
+ - Variant Calling: Calls variants using the aligned BAM files with BCFtools.
 
 ### Running the Pipeline
 Custom Data and Parameters: You can specify your input data, reference genome, and output directory using command-line parameters:
