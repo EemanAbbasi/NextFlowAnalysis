@@ -12,9 +12,13 @@ NextFlowGenomics is a robust Nextflow-based workflow designed for high-throughpu
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/NextFlowGenomics.git
+git clone https://github.com/EemanAbbasi/NextFlowGenomics.git
 cd NextFlowGenomics
 ```
+
+Pipeline Steps
+Read Alignment: Aligns sequencing reads to a reference genome using BWA.
+Variant Calling: Calls variants using the aligned BAM files with BCFtools.
 
 ### Running the Pipeline
 Custom Data and Parameters: You can specify your input data, reference genome, and output directory using command-line parameters:
